@@ -1,0 +1,37 @@
+﻿# IDE / VS
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build intermediates
+**/x64/
+**/Debug/
+**/Release/
+**/*.obj
+**/*.iobj
+**/*.ipdb
+**/*.pdb
+**/*.ilk
+**/*.idb
+**/*.tlog/
+**/*.log
+**/*.recipe
+**/*.lastbuildstate
+
+# Package / output folders
+build_out/
+dist/
+packages/
+**/packages/
+
+# Misc
+b64_out.txt
+manifest_out.xml
+start_test.txt
+
+# Keep root EXE tracked (explicit)
+!/RootMenu.exe
